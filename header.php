@@ -25,28 +25,28 @@
   <div class="collapse navbar-collapse" id="H@lle pc">
     <ul class="navbar-nav">
       <li class="nav-item active">
-	      <a class="nav-link" href="index.html"><font face="Abel"><i class="fa fa-home"></i> Acceuil</font><span class="sr-only">(current)</span></a>
+	      <a class="nav-link" href="index"><font face="Abel"><i class="fa fa-home"></i> Acceuil</font><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="ordinateur.html"><font face="Abel"><i class="fa fa-laptop"></i> Ordinateur</font></a>
+        <a class="nav-link" href="ordinateur"><font face="Abel"><i class="fa fa-laptop"></i> Ordinateur</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="périphérique.html"><font face="Abel"><i class="fa fa-print"></i> Périphérique</font></a>
+        <a class="nav-link" href="peripherique"><font face="Abel"><i class="fa fa-print"></i> Périphérique</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="composant.html"><font face="Abel"><i class="fa fa-cogs"></i> Composant</font></a>
+        <a class="nav-link" href="composant"><font face="Abel"><i class="fa fa-cogs"></i> Composant</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="consommable.html"><font face="Abel"><i class="fa fa-plus-square"></i> Consommable</font></a>
+        <a class="nav-link" href="consommable"><font face="Abel"><i class="fa fa-plus-square"></i> Consommable</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="téléphonie.html"><font face="Abel"><i class="fa fa-phone"></i> Téléphonie</font></a>
+        <a class="nav-link" href="telephonie"><font face="Abel"><i class="fa fa-phone"></i> Téléphonie</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="occasion.html"><font face="Abel"><i class="fa fa-archive"></i> Occasion</font></a>
+        <a class="nav-link" href="occasion"><font face="Abel"><i class="fa fa-archive"></i> Occasion</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="suivez-nous.html"><font face="Abel"><i class="fa fa-share-alt"></i> Suivez-nous</font></a>
+        <a class="nav-link" href="suivez-nous"><font face="Abel"><i class="fa fa-share-alt"></i> Suivez-nous</font></a>
       </li>
     </ul>
   </div>

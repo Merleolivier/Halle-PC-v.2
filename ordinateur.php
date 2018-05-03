@@ -2,23 +2,101 @@
 require_once('header.php');
 ?>
 
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="test.jpg/100px180/" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Pc portable </h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">En savoir plus</a>
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Ordinateurs Portables</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Cartes graphiques</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Cartes mères</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Mémoires vives</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Processeurs</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Disques durs</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+  </div>
+</div>
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Moniteurs</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Claviers / Souris</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Boîtiers pc</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+  </div>
+</div>
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Allimentations</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
 
 
 

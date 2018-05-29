@@ -38,7 +38,7 @@ Faites appel à nos compétences pour la maintenance de vos ordinateurs, de vos 
    <FONT color="black">
 <br />
   <div class="container">
-   <h1>Horraire</h1>
+   <h1>Horaire</h1>
     <hr width="350" style="text-align: left;"/>
    <li>Lundi 9h00-11h00 14h00 - 19h00</li>
    <li>Mardi 9h00-11h00 14h00 - 19h00</li>

@@ -34,9 +34,6 @@
         <a class="nav-link" href="peripherique"><font face="Abel"><i class="fa fa-print"></i> Périphérique</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="composant"><font face="Abel"><i class="fa fa-cogs"></i> Composant</font></a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="consommable"><font face="Abel"><i class="fa fa-plus-square"></i> Consommable</font></a>
       </li>
       <li class="nav-item">

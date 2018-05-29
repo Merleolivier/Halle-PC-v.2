@@ -1,7 +1,7 @@
 <?php
 require_once('header.php');
 ?>
-<div class="card-deck">
+<div class="card-deck" style="margin-top : 20px; margin-left: 10px; margin-right : 10px;">
   <div class="card">
     <img class="card-img-top" src=".../100px200/" alt="Card image cap">
     <div class="card-body">

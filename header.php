@@ -1,3 +1,19 @@
+<?php
+include ('assets/config/configbdd.php');
+
+// Récupérationo de donnée. 
+$req = $bdd->prepare('SELECT * FROM visiteurs WHERE id=:id');
+$req->execute(array('id' => '1'));
+$data = $req->fetch();
+
+$nbrancien = $data['visiteurs'];
+$nbrnouveau = $nbrancien + 1;
+
+$req = $bdd->prepare('UPDATE visiteurs SET visiteurs=:visiteurs WHERE id=:id');
+$req->execute(array('visiteurs' => $nbrnouveau,
+                    'id' => '1'));
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,9 +58,15 @@
       <li class="nav-item">
         <a class="nav-link" href="occasion"><font face="Abel"><i class="fa fa-archive"></i> Occasion</font></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="suivez-nous"><font face="Abel"><i class="fa fa-share-alt"></i> Suivez-nous</font></a>
-      </li>
+
+      <a href="https://facebook.com" target="_blank"><button type="button" class="btn btn-light" style="margin-left: 330px;"><i class="fab fa-facebook"></i></button></a>
+      <a href="tel:0699057865"><button type="button" class="btn btn-light" style=""><i class="fas fa-phone-square"></i></button></a>
+      <a href="mailto:olivier@gmail.com" style="text-decoration: none;"><button type="button" class="btn btn-light" style=""><i class="fas fa-envelope"></i></button></a>
+      <a style="text-decoration: none;"><button type="button" class="btn btn-light" style=""> Visiteurs : <?php echo $nbrancien; ?></button></a>
     </ul>
+
+    
+
+
   </div>
 </nav>
